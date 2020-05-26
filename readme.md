@@ -1,4 +1,4 @@
-MFCC in Pytorch
+# MFCC in Pytorch
 
 ```
 MFCC(
@@ -25,4 +25,6 @@ MFCC(
   - 1024(frame_length)/16000 = 0.064초
   - frame length에 대한 histogram
 
+<center>
 ![seq_hist](/figure/seq_hist.png)
+</center>
