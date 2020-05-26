@@ -28,8 +28,9 @@ MFCC(
   - 1024(frame_length)/16000 = 0.064초
   - 전체데이터에 대한 frame length의 histogram
 
-
-<img width="700" height="auto" src="/figure/seq_hist.png">
+<p align="center">
+<img width="300" height="auto" src="/figure/seq_hist.png">
+</p>
 
 ## Requirements
 ```
