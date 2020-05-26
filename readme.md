@@ -14,7 +14,8 @@ MFCC(
 - Parameter
   - `sample_rate`=16000
   - `n_mfcc`= 40
-  - `log_mels`=False    # log scale을 spectrogram 전에 사용하기 때문에 사용하지 않음
+  - `log_mels`=False
+    - log scale을 spectrogram 전에 사용하기 때문에 사용하지 않음
   - `n_fft`: 1024 (window_size)
 
 - Dataset
