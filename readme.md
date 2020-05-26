@@ -25,7 +25,7 @@ MFCC(
     - -(-107743// 512) = 211
   - 107743(오디오길이)/16000(샘플링 레이트) = 6.733초
   - 1024(frame_length)/16000 = 0.064초
-  - frame length에 대한 histogram
+  - 전체데이터에 대한 frame length의 histogram
 
 ![seq_hist](/figure/seq_hist.png)
 
