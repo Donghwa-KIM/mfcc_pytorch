@@ -1,9 +1,5 @@
 # MFCC in Pytorch
 
-- Requirements
-```
-pip install torchaudio
-```
 
 ```
 MFCC(
@@ -32,3 +28,9 @@ MFCC(
 
 ![seq_hist](/figure/seq_hist.png)
 
+---
+
+# Requirements
+```
+pip install torchaudio
+```
