@@ -1,6 +1,10 @@
 # MFCC in Pytorch
 
 ```
+pip install torchaudio
+```
+
+```
 MFCC(
   (amplitude_to_DB): AmplitudeToDB() # db scale: input에 로그정규화를 해주면 spectrogram이 더 잘 보임
   (MelSpectrogram): MelSpectrogram(
