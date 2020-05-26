@@ -21,9 +21,10 @@ MFCC(
 
 - Dataset
   - frame_length = -(-audio_length // stride)
-    - audio_length = 107743
-    - stride = 512
-    - -(-107743// 512) = 211
+    - example
+      - audio_length = 107743
+      - stride = 512
+      - -(-107743// 512) = 211
   - 107743(오디오길이)/16000(샘플링 레이트) = 6.733초
   - 1024(frame_length)/16000 = 0.064초
   - 전체데이터에 대한 frame length의 histogram
