@@ -27,6 +27,7 @@ MFCC(
   - 107743(오디오길이)/16000(샘플링 레이트) = 6.733초
   - 1024(frame_length)/16000 = 0.064초
   - 전체데이터에 대한 frame length의 histogram
+    - `max_length`을 400으로 할 예정
 
 <p align="center">
 <img width="400" height="auto" src="/figure/seq_hist.png">
