@@ -17,6 +17,7 @@ MFCC(
   - `log_mels`=False
     - log scale을 spectrogram 전에 사용하기 때문에 사용하지 않음
   - `n_fft`: 1024 (window_size)
+  - `stride`: 512
 
 - Dataset
   - frame_length = -(-audio_length // stride)
